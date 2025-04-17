@@ -1,0 +1,16 @@
+﻿
+@model System.Text.Json.JsonElement?
+@{
+    var bookSlug = ViewBag.BookSlug as string;
+}
+<h2>Chapters</h2>
+<ul>
+    @foreach (var chapter in Model.Value.EnumerateArray())
+    {
+        <li>
+            <a href="@Url.Action("Hadiths", new { bookSlug = bookSlug, chapter = chapter.GetProperty("chapterNumber").GetString() })">
+                @chapter.GetProperty("chapterArabic") - @chapter.GetProperty("chapterUrdu")
+            </a>
+        </li>
+    }
+</ul>

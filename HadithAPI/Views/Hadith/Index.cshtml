@@ -1,0 +1,13 @@
+﻿@model System.Text.Json.JsonElement?
+
+<h2>Hadith Books</h2>
+<ul>
+    @foreach (var book in Model.Value.EnumerateArray())
+    {
+        <li>
+            <a href="@Url.Action("Chapters", new { bookSlug = book.GetProperty("bookSlug").GetString() })">
+                @book.GetProperty("bookName") (Chapters: @book.GetProperty("chapters_count"), Hadiths: @book.GetProperty("hadiths_count"))
+            </a>
+        </li>
+    }
+</ul>
