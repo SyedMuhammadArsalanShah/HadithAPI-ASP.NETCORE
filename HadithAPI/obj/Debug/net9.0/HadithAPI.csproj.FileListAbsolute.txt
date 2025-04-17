@@ -299,8 +299,8 @@ D:\ASP.NETCORE\HadithAPI\HadithAPI\obj\Debug\net9.0\HadithAPI.genruntimeconfig.c
 D:\ASP.NETCORE\HadithAPI\HadithAPI\obj\Debug\net9.0\ref\HadithAPI.dll
 D:\HadithAPI\HadithAPI\bin\Debug\net9.0\appsettings.Development.json
 D:\HadithAPI\HadithAPI\bin\Debug\net9.0\appsettings.json
-D:\HadithAPI\HadithAPI\bin\Debug\net9.0\HadithAPI.staticwebassets.endpoints.json
 D:\HadithAPI\HadithAPI\bin\Debug\net9.0\HadithAPI.staticwebassets.runtime.json
+D:\HadithAPI\HadithAPI\bin\Debug\net9.0\HadithAPI.staticwebassets.endpoints.json
 D:\HadithAPI\HadithAPI\bin\Debug\net9.0\HadithAPI.exe
 D:\HadithAPI\HadithAPI\bin\Debug\net9.0\HadithAPI.deps.json
 D:\HadithAPI\HadithAPI\bin\Debug\net9.0\HadithAPI.runtimeconfig.json
