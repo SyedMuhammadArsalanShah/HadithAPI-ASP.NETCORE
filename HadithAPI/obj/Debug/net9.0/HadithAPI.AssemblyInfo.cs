@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HadithAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2befad111c8c21bdd5beed30cd1d96770a15a14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4583e7ae41254aa54f673105e71df85b725ae3bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("HadithAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HadithAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

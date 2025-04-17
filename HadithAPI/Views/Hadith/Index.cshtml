@@ -1,13 +1,18 @@
 ﻿@model System.Text.Json.JsonElement?
-
-<h2>Hadith Books</h2>
-<ul>
-    @foreach (var book in Model.Value.EnumerateArray())
-    {
-        <li>
-            <a href="@Url.Action("Chapters", new { bookSlug = book.GetProperty("bookSlug").GetString() })">
-                @book.GetProperty("bookName") (Chapters: @book.GetProperty("chapters_count"), Hadiths: @book.GetProperty("hadiths_count"))
+@{
+    ViewData["Title"] = "Hadith Books";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-4">
+    <h2 class="mb-3">Hadith Books</h2>
+    <div class="container mt-4">
+    <div class="list-group">
+        @foreach (var book in Model.Value.EnumerateArray())
+        {
+            <a class="list-group-item list-group-item-action" href="@Url.Action("Chapters", new { bookSlug = book.GetProperty("bookSlug").GetString() })">
+                <strong>@book.GetProperty("bookName")</strong><br />
+                <small>Chapters: @book.GetProperty("chapters_count") | Hadiths: @book.GetProperty("hadiths_count")</small>
             </a>
-        </li>
-    }
-</ul>
+        }
+    </div></div>
+</div>

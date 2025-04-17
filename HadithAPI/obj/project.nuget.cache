@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OdXMhgnYspg=",
+  "dgSpecHash": "AYb05K+rBCk=",
   "success": true,
-  "projectFilePath": "D:\\ASP.NETCORE\\HadithAPI\\HadithAPI\\HadithAPI.csproj",
+  "projectFilePath": "D:\\HadithAPI\\HadithAPI\\HadithAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mypc\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\mypc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
